@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Medieval & Victorian Curated Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Chronicles in Stone &amp; Canvas</h1>
+    <p>A curated gallery of medieval mists, Victorian elegance, and gothic architecture</p>
+
+    <!-- Flexbox Filter Buttons -->
+    <nav class="filter-bar" aria-label="Category Filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="landscapes">Landscapes</button>
+      <button class="filter-btn" data-filter="portraits">Portraits</button>
+      <button class="filter-btn" data-filter="architecture">Architecture</button>
+    </nav>
+  </header>
+
+  <!-- CSS Grid with 12 Image Cards -->
+  <main class="gallery-grid">
+
+    <!-- Card 1: Landscape -->
+    <article class="card" data-category="landscapes">
+      <div class="image-wrapper">
+        <img src="https://thumbs.dreamstime.com/b/medieval-turaida-castle-rising-above-mist-sunrise-gauja-national-park-latvia-461084936.jpg" alt="Misty river valley landscape" />
+        <div class="overlay">
+          <p>Morning fog rolls over ancient cliffs and winding waters nestled deep within a secluded valley.</p>
+        </div>
+      </div>
+      <div class="card-footer">
+        <h2 class="card-title">Highland Valley Mist</h2>
+        <span class="category-tag">Landscapes</span>
+      </div>
+    </article>
+
+    <!-- Card 2: Portrait -->
+    <article class="card" data-category="portraits">
+      <div class="image-wrapper">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9upwCbmAUBsYjC-Uj6O057C_guTUBUPSjpCikvSoQeKsosjOwe7PTAi0&s=10" alt="Classical contemplative portrait" />
+        <div class="overlay">
+          <p>Soft natural light capturing quiet aristocratic poise and gentle shadow play.</p>
+        </div>
+      </div>
+      <div class="card-footer">
+        <h2 class="card-title">Study in Quiet Grace</h2>
+        <span class="category-tag">Portraits</span>
+      </div>
+    </article>
+
+    <!-- Card 3: Architecture -->
+    <article class="card" data-category="architecture">
+      <div class="image-wrapper">
+        <img src="https://images.stockcake.com/public/4/7/f/47f9dcb6-65f0-470c-b693-48ff24e382ff_large/soaring-modern-architecture-stockcake.jpg" alt="Soaring architectural facade" />
+        <div class="overlay">
+          <p>Monumental stone geometry and towering lines engineered to draw the eye skyward.</p>
+        </div>
+      </div>
+      <div class="card-footer">
+        <h2 class="card-title">Tower of St. Augustine</h2>
+        <span class="category-tag">Architecture</span>
+      </div>
+    </article>
+
+    <!-- Card 4: Landscape -->
+    <article class="card" data-category="landscapes">
+      <div class="image-wrapper">
+        <img src="https://images.pexels.com/photos/36055561/pexels-photo-36055561/free-photo-of-moody-scottish-highlands-rock-formation.jpeg?auto=compress&w=1260&h=750&dpr=1" alt="Moody highland peaks" />
+        <div class="overlay">
+          <p>Overcast skies blanket rugged highland ridges, echoing the romantic landscapes of the Victorian era.</p>
+        </div>
+      </div>
+      <div class="card-footer">
+        <h2 class="card-title">Pastoral Dusk in Sussex</h2>
+        <span class="category-tag">Landscapes</span>
+      </div>
+    </article>
+
+    <!-- Card 5: Portrait -->
+    <article class="card" data-category="portraits">
+      <div class="image-wrapper">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5NPcmBHyzAvYpXuTVtA-iyNctteVmpPl51VvTEI_SMw&s=10" alt="Figure overlooking misty horizon" />
+        <div class="overlay">
+          <p>A solitary silhouette framed against atmospheric mist, evoking 19th-century romanticism.</p>
+        </div>
+      </div>
+      <div class="card-footer">
+        <h2 class="card-title">Watcher on the Moor</h2>
+        <span class="category-tag">Portraits</span>
+      </div>
+    </article>
+
+    <!-- Card 6: Architecture -->
+    <article class="card" data-category="architecture">
+      <div class="image-wrapper">
+        <img src="https://i.pinimg.com/originals/ac/3b/10/ac3b10721cca53abf8b473372961196e.jpg?nii=t" alt="Medieval stone castle on hill" />
+        <div class="overlay">
+          <p>Historic stone battlements rising above dense woodland in classic European fortress style.</p>
+        </div>
+      </div>
+      <div class="card-footer">
+        <h2 class="card-title">Schloss Hohenzollern</h2>
+        <span class="category-tag">Architecture</span>
+      </div>
+    </article>
+
+    <!-- Card 7: Landscape -->
+    <article class="card" data-category="landscapes">
+      <div class="image-wrapper">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXhK6R5IG7RT2FsqrEr1Oo5VLEHwE9F-NvFazikShExzQLoNYlWcFEUhaU&s=10" alt="Snow-covered mountain crags" />
+        <div class="overlay">
+          <p>Jagged winter peaks shrouded in low-hanging clouds, celebrating the sublime wilderness.</p>
+        </div>
+      </div>
+      <div class="card-footer">
+        <h2 class="card-title">The Crags of Snowdonia</h2>
+        <span class="category-tag">Landscapes</span>
+      </div>
+    </article>
+
+    <!-- Card 8: Portrait -->
+    <article class="card" data-category="portraits">
+      <div class="image-wrapper">
+        <img src="https://media.istockphoto.com/id/157404674/photo/the-world-at-rest.jpg?s=612x612&w=0&k=20&c=2cpNP6xODJ29_hxD3LgEmLmvKJV_xr-uvkeTsXe4vYk=" alt="Portrait by calm water" />
+        <div class="overlay">
+          <p>Warm tones and serene composition preserve a timeless moment of stillness by the lake.</p>
+        </div>
+      </div>
+      <div class="card-footer">
+        <h2 class="card-title">Maiden of the Mere</h2>
+        <span class="category-tag">Portraits</span>
+      </div>
+    </article>
+
+    <!-- Card 9: Architecture -->
+    <article class="card" data-category="architecture">
+      <div class="image-wrapper">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfs7yfLDdRxlqb9UQkCvZgUE1ltmi86GbWBbHSR1qQNg&s=10" alt="Historic cobbled alleyway" />
+        <div class="overlay">
+          <p>Weathered cobbles and historic masonry narrow toward an old-world European archway.</p>
+        </div>
+      </div>
+      <div class="card-footer">
+        <h2 class="card-title">Old Town Ramparts</h2>
+        <span class="category-tag">Architecture</span>
+      </div>
+    </article>
+
+    <!-- Card 10: Landscape -->
+    <article class="card" data-category="landscapes">
+      <div class="image-wrapper">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSisOB2Ya-z5zYuh5GRaQLObgSvLbHytT_B-piF9nExOT7MHQH0KPDbe4H1&s=10" alt="Forested mountain stream" />
+        <div class="overlay">
+          <p>Still waters wind beneath towering cliffs and ancient pines in an untouched pre-industrial vale.</p>
+        </div>
+      </div>
+      <div class="card-footer">
+        <h2 class="card-title">Mirror of the Vale</h2>
+        <span class="category-tag">Landscapes</span>
+      </div>
+    </article>
+
+    <!-- Card 11: Portrait -->
+    <article class="card" data-category="portraits">
+      <div class="image-wrapper">
+        <img src="https://images.pexels.com/photos/30909875/pexels-photo-30909875/free-photo-of-solitary-figure-in-dark-green-coat-with-dramatic-lighting.jpeg?cs=tinysrgb&dpr=1&w=500" alt="Wrapped figure in moody light" />
+        <div class="overlay">
+          <p>Rich textures and dramatic chiaroscuro tones reminiscent of classic salon portraiture.</p>
+        </div>
+      </div>
+      <div class="card-footer">
+        <h2 class="card-title">Study in Wool &amp; Shadow</h2>
+        <span class="category-tag">Portraits</span>
+      </div>
+    </article>
+
+    <!-- Card 12: Architecture -->
+    <article class="card" data-category="architecture">
+      <div class="image-wrapper">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc6fRcMsxRYxnrz35Oagbhq8oANjAYB8Mkd2X7uIA0vg&s=10" alt="Historic coastal skyline" />
+        <div class="overlay">
+          <p>Grand spires and civic facades stand watch along the waterfront under golden dusk light.</p>
+        </div>
+      </div>
+      <div class="card-footer">
+        <h2 class="card-title">Westminster Waterfront</h2>
+        <span class="category-tag">Architecture</span>
+      </div>
+    </article>
+
+  </main>
+
+  <script>
+    const buttons = document.querySelectorAll('.filter-btn');
+    const cards = document.querySelectorAll('.card');
+
+    buttons.forEach(button => {
+      button.addEventListener('click', () => {
+        buttons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+
+        const filter = button.getAttribute('data-filter');
+
+        cards.forEach(card => {
+          const category = card.getAttribute('data-category');
+          if (filter === 'all' || category === filter) {
+            card.classList.remove('hidden');
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
